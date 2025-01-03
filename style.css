@@ -1,0 +1,42 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Main container styling */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Title styling */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Price display styling */
+.price-box {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+/* Update note styling */
+.update-note {
+    font-size: 14px;
+    color: #666;
+}
