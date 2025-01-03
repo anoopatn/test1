@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satoshi to USD Price Tracker</title>
+    <title>SatsTracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,8 +12,18 @@
         <p>Tracking the live price of 1 Satoshi in USD</p>
         
         <div class="price-box">
-            <span>1 Satoshi = </span><span id="usdPrice">Loading...</span><span> USD</span>
+            <div class="price-box">
+            <span>Bitcoin Price: </span><span id="btcPrice">Loading...</span><span> USD</span>
         </div>
+
+        <div class="price-box">
+            <span>1 Satoshi = </span><span id="satoshiPrice">Loading...</span><span> USD</span>
+        </div>
+
+        <div class="price-box">
+            <span>1 USD = </span><span id="reciprocalPrice">Loading...</span><span> Satoshis</span>
+        </div>
+        
         
         <p class="update-note">Price updates every 2 seconds</p>
     </div>
